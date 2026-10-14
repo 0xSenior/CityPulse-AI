@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets & Compressed Archives (Exceeds GitHub 100MB Limits)
+*.zip
+*.csv
+archive/
+archive.zip
+final_cleaned_traffic_data.csv
+metasploitable-linux-2.0.0.zip
+data/raw/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*

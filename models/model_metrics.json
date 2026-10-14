@@ -1,0 +1,30 @@
+{
+  "train_samples": 480000,
+  "test_samples": 120000,
+  "high_risk_accuracy": 0.8949,
+  "high_risk_f1": 0.8072,
+  "classifier_accuracy": 0.7331,
+  "classifier_f1_weighted": 0.7349,
+  "volume_mae": 34.47,
+  "volume_r2": 0.794,
+  "feature_importances": {
+    "Yr": 0.0059,
+    "M": 0.0046,
+    "D": 0.0029,
+    "HH": 0.0223,
+    "MM": 0.0062,
+    "day_of_week": 0.0165,
+    "is_weekend": 0.016,
+    "is_rush_hour": 0.0103,
+    "hour_sin": 0.0143,
+    "hour_cos": 0.0183,
+    "month_sin": 0.0046,
+    "month_cos": 0.0049,
+    "seg_mean": 0.0138,
+    "seg_hour_mean": 0.7264,
+    "seg_day_mean": 0.0528,
+    "seg_std": 0.0321,
+    "seg_max": 0.0224,
+    "boro_hour_mean": 0.0255
+  }
+}
